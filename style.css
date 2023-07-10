@@ -10,17 +10,20 @@
 
 /* banner section */
 
-div {
+.banner {
     width: 1920px;
     height: 850px;
     background-color: rgba(229, 84, 115, 0.10);
+    display: flex;
+
 }
 
 .banner-title {
     color: #272727;
     font-size: 80px;
     font-weight: 800;
-    padding: ;
+    line-height: normal;
+    padding: 197px 0px 0px 0px;
 }
 
 .banner-contant {
@@ -29,7 +32,10 @@ div {
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
-    padding: ;
+}
+
+.banner-section {
+    margin: 0px 240px;
 }
 
 .btn-primary {
@@ -39,6 +45,9 @@ div {
 }
 
 .banner-img {
+    width: 635px;
+    height: 800px;
     background-color: lightgray 50%;
     background-repeat: no-repeat;
+    align-items: center;
 }

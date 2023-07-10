@@ -1,11 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
-}
-
-* {
     font-family: 'Open Sans', sans-serif;
-
 }
 
 /* banner section */
@@ -41,11 +37,13 @@
 .btn-primary {
     padding: 20px 43px;
     border-radius: 8px;
+    align-items: flex-start;
     background: #E55473;
     border: 0px;
     color: #FFF;
     font-size: 20px;
     font-weight: 700;
+    gap: 10px;
 }
 
 .banner-img {
@@ -57,6 +55,7 @@
     padding: 50px 0px 0px 0px;
 }
 
+/* feature-section */
 .feature-section {
     width: 1920px;
     height: px;
@@ -82,8 +81,24 @@
     padding: 0px 663px;
 }
 
-.box-img {
-    width: 310px;
-    height: 428px;
-    background-image: lightgray 50%;
+
+.box {
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background-color: rgba(167, 33, 98, 0.15);
+    margin: 0px 240px;
+
+}
+
+.box-icon {}
+
+.deal-section {
+    width: 1922px;
+    height: 620px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+}
+.deal-contant{
+    padding: 230px 0px 100px 395px;
 }

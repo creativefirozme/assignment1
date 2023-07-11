@@ -11,8 +11,19 @@
     height: 850px;
     background-color: rgba(229, 84, 115, 0.10);
     display: flex;
-    padding: 0px 240px;
+    background-position: cover;
 
+}
+
+
+
+.banner-contant {
+    width: 634px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 30px 0px 0px;
 }
 
 .banner-title {
@@ -23,16 +34,9 @@
     padding: 197px 0px 0px 0px;
 }
 
-.banner-contant {
-    width: 634px;
-    color: rgba(39, 39, 39, 0.60);
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 30px;
-}
-
 .banner-section {
-    
+    padding: 0px 0px 0px 240px;
+
 }
 
 .btn-primary {
@@ -45,6 +49,7 @@
     font-size: 20px;
     font-weight: 700;
     gap: 10px;
+    margin: 30px 0px;
 }
 
 .banner-img {
@@ -52,14 +57,16 @@
     height: 800px;
     background-repeat: no-repeat;
     align-items: center;
-    padding: 50px 240px 0px 97px;
+    padding: 50px 0px 0px 0px;
+    margin: 0px 0px 0px 97px;
 }
 
 /* feature-section */
 .feature-section {
     width: 1920px;
     height: px;
-    margin: 178px 0px 240px;
+    margin: 178px 0px 0px 0px;
+    align-items: center;
 }
 
 .feature-title {
@@ -81,32 +88,76 @@
     padding: 0px 663px;
 }
 
+.all-box {
+    display: flex;
+    gap: 24px;
 
-.box {
+}
+
+.box1 {
     width: 464px;
     height: 538px;
     border-radius: 300px 300px 0px 0px;
     background-color: rgba(167, 33, 98, 0.15);
-    margin: 0px 240px;
-
+    margin: 48px 0px 0px 240px;
 }
 
-.box-icon {}
+.box2 {
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    margin: 48px 0px 0px 0px;
+}
 
-.deal-section {
-    width: 1922px;
+.box3 {
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    margin: 48px 0px 0px 0px;
+}
+
+.icon1 {
+    width: 310px;
+    height: 428px;
+    margin: 110px 78px 0px 76px;
+}
+
+.icon2 {
+    width: 370px;
+    height: 370px;
+    margin: 110px 78px 0px 76px;
+}
+
+.icon3 {
+    width: 314px;
+    height: 471px;
+    margin: 67px 75px 0px;
+}
+
+.signup-section {
+    width: 1920px;
     height: 620px;
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
     display: flex;
 }
 
-.deal-contant {
+.signup-contant {
     padding: 230px 0px 100px 395px;
 }
 
-.deal-section-img {
+.signup-section-img {
     width: 318px;
     height: 420px;
     padding: 100px 429px 100px 186px;
+}
+
+.service {
+    margin: 128px;
+    width: 1440px;
+    height: 320px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
 }

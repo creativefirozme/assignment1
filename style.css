@@ -17,14 +17,7 @@
 
 
 
-.banner-contant {
-    width: 634px;
-    color: rgba(39, 39, 39, 0.60);
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 30px;
-    margin: 30px 0px 0px;
-}
+
 
 .banner-title {
     color: #272727;
@@ -32,6 +25,14 @@
     font-weight: 800;
     line-height: normal;
     padding: 197px 0px 0px 0px;
+}
+
+.banner-contant {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 30px 0px 0px;
 }
 
 .banner-section {
@@ -55,7 +56,6 @@
 .banner-img {
     width: 635px;
     height: 800px;
-    background-repeat: no-repeat;
     align-items: center;
     padding: 50px 0px 0px 0px;
     margin: 0px 0px 0px 97px;
@@ -76,8 +76,6 @@
     line-height: normal;
 }
 
-.feature-contant {}
-
 .feature-paragraph {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
@@ -85,6 +83,7 @@
     font-weight: 400;
     line-height: 30px;
     padding: 0px 663px;
+    padding-top: 24px;
 }
 
 .all-box {
@@ -210,10 +209,19 @@
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
     display: flex;
+    text-align: center;
 }
 
 .signup-contant {
     padding: 230px 0px 100px 395px;
+}
+
+.signup-paragraph {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 24px;
 }
 
 .signup-section-img {
@@ -225,6 +233,8 @@
 .signup-title>span {
     color: #E55473;
 }
+
+
 
 /* social section */
 
@@ -297,6 +307,7 @@
     font-weight: 400;
     line-height: 30px;
     padding-top: 16px;
+    padding-bottom: 48px;
 }
 
 .subscribe-container>input {

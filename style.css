@@ -127,7 +127,7 @@
 .icon2 {
     width: 370px;
     height: 370px;
-    margin: 110px 78px 0px 76px;
+    margin: 110px 78px 60px 76px;
 }
 
 .icon3 {
@@ -135,6 +135,76 @@
     height: 471px;
     margin: 67px 75px 0px;
 }
+
+.box-name {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+}
+
+
+/* service section */
+.service {
+    width: 1440px;
+    height: 320px;
+    margin: 128px 240px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+}
+
+.service-img1 {
+    width: 88px;
+    height: 88px;
+    padding: 86px 0px 0px 300px;
+}
+
+.service-img2 {
+    width: 88px;
+    height: 88px;
+    padding: 86px 0px 0px 200px;
+}
+
+.service-img3 {
+    width: 88px;
+    height: 88px;
+    padding: 86px 0px 0px 185px;
+}
+
+.service-contant1 {
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35px;
+    padding: 0px 0px 87px 160px;
+}
+
+.service-contant2 {
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35px;
+    padding: 0px 0px 87px 55px;
+
+}
+
+.service-contant3 {
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35px;
+    padding: 0px 0px 87px 100px;
+}
+
+/* signup-section */
 
 .signup-section {
     width: 1920px;
@@ -154,10 +224,6 @@
     padding: 100px 429px 100px 186px;
 }
 
-.service {
-    margin: 128px;
-    width: 1440px;
-    height: 320px;
-    border-radius: 8px;
-    background: rgba(39, 39, 39, 0.05);
+.signup-title >span{
+    color: #E55473;
 }

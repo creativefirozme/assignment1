@@ -11,6 +11,7 @@
     height: 850px;
     background-color: rgba(229, 84, 115, 0.10);
     display: flex;
+    padding: 0px 240px;
 
 }
 
@@ -31,7 +32,7 @@
 }
 
 .banner-section {
-    margin: 0px 240px;
+    
 }
 
 .btn-primary {
@@ -49,10 +50,9 @@
 .banner-img {
     width: 635px;
     height: 800px;
-    background-color: lightgray 50%;
     background-repeat: no-repeat;
     align-items: center;
-    padding: 50px 0px 0px 0px;
+    padding: 50px 240px 0px 97px;
 }
 
 /* feature-section */
@@ -98,7 +98,15 @@
     height: 620px;
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
+    display: flex;
 }
-.deal-contant{
+
+.deal-contant {
     padding: 230px 0px 100px 395px;
+}
+
+.deal-section-img {
+    width: 318px;
+    height: 420px;
+    padding: 100px 429px 100px 186px;
 }
